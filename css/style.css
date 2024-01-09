@@ -68,7 +68,7 @@ h1 {
     max-width: 391px;
 }
 
-.section_1 p {
+.container_sec1 p {
     color: #FBFAF7;
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
@@ -83,5 +83,18 @@ h1 {
 }
 
 .section_1 {
-    background: #163A24;
+    background-color: #163A24;
+    padding: 120px 0;
+    background-image: url("../images/section1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container_sec1 {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.container_sec1 article {
+    max-width: 475px;
 }
