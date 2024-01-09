@@ -87,7 +87,7 @@ h1 {
     padding: 120px 0;
     background-image: url("../images/section1.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 1000px 0;
 }
 
 .container_sec1 {
