@@ -93,7 +93,7 @@ h1 {
 .section_1 {
     background-color: #163A24;
     padding: 120px 0;
-    background-image: url("images/section1.png");
+    background-image: url("/images/section1.png");
     background-repeat: no-repeat;
     background-position: 1000px 0;
 }
