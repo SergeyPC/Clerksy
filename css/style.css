@@ -115,7 +115,7 @@ h1 {
 .partners h3 {
     margin-bottom: 67px;
     color: #163A24;
-    font-family: Recoleta;
+    font-family: 'Recoleta', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
@@ -146,7 +146,7 @@ h1 {
 
 .HR_Prod_Container h2 {
     color: #FBFAF7;
-    font-family: Recoleta;
+    font-family: 'Recoleta', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
