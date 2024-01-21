@@ -108,22 +108,32 @@ h1 {
 }
 
 .put_the_human {
-    padding-top: 120px;
+    padding: 120px 98px 0 98px;
 }
 
-.container_put_the_human {
+.play {
+    padding: 10px 98px 0 98px;
+}
+
+.container_put_the_human, .container_play {
     max-width: 1180px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Выравниваем по вертикали по центру */
 }
 
 .text_put_the_human {
     max-width: 374px;
-    margin: auto;
+    margin-left: auto;
 }
 
-.text_put_the_human h2 {
+.text_play {
+    max-width: 374px;
+    margin-right: auto;
+}
+
+.text_put_the_human h2, .text_play h2 {
     color: #163A24;
     font-family: 'Recoleta', sans-serif;
     font-size: 48px;
@@ -133,7 +143,7 @@ h1 {
     margin-bottom: 27px;
 }
 
-.text_put_the_human p {
+.text_put_the_human p, .text_play p {
     color: #163A24;
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
