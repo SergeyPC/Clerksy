@@ -115,12 +115,16 @@ h1 {
     padding: 10px 98px 0 98px;
 }
 
-.container_put_the_human, .container_play {
+.container_put_the_human, .container_play, .container_women {
     max-width: 1180px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center; /* Выравниваем по вертикали по центру */
+}
+
+.container_put_the_human img, .text_play, .text_women {
+    margin-left: 98px;
 }
 
 .text_put_the_human {
@@ -133,7 +137,12 @@ h1 {
     margin-right: auto;
 }
 
-.text_put_the_human h2, .text_play h2 {
+.text_women {
+    max-width: 379px;
+    margin-right: auto;
+}
+
+.text_put_the_human h2, .text_play h2, .text_women h2 {
     color: #163A24;
     font-family: 'Recoleta', sans-serif;
     font-size: 48px;
@@ -143,7 +152,7 @@ h1 {
     margin-bottom: 27px;
 }
 
-.text_put_the_human p, .text_play p {
+.text_put_the_human p, .text_play p, .text_women p {
     color: #163A24;
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
@@ -181,6 +190,11 @@ h1 {
 .partners_container {
     margin: auto;
     max-width: 1180px;
+}
+
+.women {
+    padding-top: 180px;
+    padding-bottom: 114px;
 }
 
 .HR_Prod {
