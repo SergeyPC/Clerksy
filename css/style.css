@@ -95,7 +95,7 @@ h1 {
     padding: 120px 0;
     background-image: url("../images/section1.png");
     background-repeat: no-repeat;
-    background-position: 1000px 0;
+    background-position: 100% 0;
 }
 
 .container_sec1 {
@@ -482,7 +482,6 @@ container_clerksy_can_help a {
     font-style: normal;
     font-weight: 600;
     line-height: 54px;
-    max-width: 360px;
     margin: auto;
     padding-bottom: 26px;
 }
@@ -496,7 +495,6 @@ container_clerksy_can_help a {
     font-weight: 400;
     line-height: 27px; /* 150% */
     padding-bottom: 18px;
-    max-width: 527px;
     margin: auto;
 }
 
