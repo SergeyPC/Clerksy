@@ -1,3 +1,201 @@
-@media screen and (max-width: 1207px){
-    
+@media screen and (max-width: 428px){
+    /*.container a img {
+        max-width: 100%;
+        height: auto;
+    }*/
+
+    .container {
+        max-width: 350px;
+        white-space: nowrap;
+    }
+
+    .nav_container_1 a, .nav_container_2 a {
+        font-size: 11px;
+    }
+
+    .nav_container_2 {
+        padding: 10px 15px;
+    }
+
+    .container_sec1 {
+        max-width: 350px;
+    }
+    .section_1 {
+        background-size: 100% auto;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .container_sec1 p {
+        font-size:16px;
+    }
+
+    .section_1 {
+        background-size: 93% 48%;
+        height: 500px;
+        background-position: 50% 100%;
+        padding: 20px;
+    }
+
+    .container_put_the_human, .container_play, .container_women, .container_hr_ebook {
+        max-width: 350px;
+        gap: 60px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .put_the_human {
+        padding: 60px 40px 0 40px;
+    }
+
+    .play {
+        padding: 30px 40px 0 40px;
+    }
+
+    .partners {
+        padding-top: 65px;
+        padding-bottom: 60px;
+    }
+
+    .partners_container {
+        max-width: 350px;
+    }
+
+    .text_put_the_human h2, .text_play h2, .text_women h2, .text_hr_ebook h2,.container_get_started h2 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .text_put_the_human p, .text_play p, .text_women p, .text_hr_ebook p,.container_get_started p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .partners h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .partners_icons {
+        max-width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .partners a {
+        margin-left: 0;
+        padding: 15px 0;
+    }
+
+    .aircall {
+        margin-left: 81%;
+    }
+
+    .HR_Prod {
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+
+    .HR_Prod_Container {
+        max-width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .HR_Prod_Container h2 {
+        font-size:30px;
+    }
+
+    .employees_container {
+        max-width: 350px;
+    }
+
+    .employees  {
+        padding-top: 65px;
+        padding-bottom: 75px;
+    }
+
+    .employees_container h2, .easy_as {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .employees_container p, .can_help {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .women, .section_clerksy_can_help {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .container_consider .first_h2 {
+        font-size: 30px;
+    }
+
+    .container_consider p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .help_info {
+        max-width: 350px;
+        justify-content:center;
+    }
+
+    .help_info article {
+        margin-bottom: 23px;
+        padding: 0;
+        height:125px;
+    }
+
+    .can_help {
+        max-width: 350px;
+    }
+
+    .fill_out:after {
+        display: none;
+    }
+
+    .time_it:after {
+        display: none;
+    }
+
+    .take_advantage:after {
+        right: 10%;
+        top: 60%;
+    }
+
+    .hr_ebook {
+        padding-top: 40px;
+    }
+
+    .container_hr_ebook img {
+        padding-bottom: 40px;
+    }
+
+    .container_get_started:before {
+        display: none;
+    }
+
+    .container_get_started:after {
+        top: -10px;
+    }
+
+    .container_get_started a {
+        font-size: 14px;
+    }
+
 }

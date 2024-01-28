@@ -121,7 +121,8 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 100px;
-    align-items: center; /* Выравниваем по вертикали по центру */
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .text_put_the_human {
@@ -327,11 +328,11 @@ h1 {
 
 .containers_product_cards {
     display: flex;
-    height: 430px;
     padding: 0 20px;
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .containers_product_cards h2 {
@@ -341,6 +342,7 @@ h1 {
     font-style: normal;
     font-weight: 600;
     line-height: 31.5px; /* 112.5% */
+    max-width: 285px;
 }
 
 .protect_company {
@@ -406,6 +408,7 @@ container_clerksy_can_help a {
     position: relative;
     padding-top: 23px;
     padding-bottom: 23px;
+    flex-wrap: wrap;
 }
 
 .help_info article {
