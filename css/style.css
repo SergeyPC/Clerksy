@@ -203,6 +203,12 @@ h1 {
     background-color: #163A24;
 }
 
+.owl-carousel .owl-item img{
+    max-width: 245px;
+    width: auto;
+    display: inline-block;
+}
+
 .HR_Prod_Container h2 {
     color: #FBFAF7;
     font-family: 'Recoleta', sans-serif;
