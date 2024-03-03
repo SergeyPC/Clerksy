@@ -534,3 +534,119 @@ container_clerksy_can_help a {
   position: absolute;
   top: 14px;
   z-index: -1; }
+
+.container_signUp {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f2efe6; }
+
+.signUp {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: auto;
+  flex-wrap: wrap; }
+
+.signUp_text h2 {
+  font-family: 'Recoleta', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 112%;
+  color: #163a24;
+  margin-bottom: 26px; }
+.signUp_text p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #163a24; }
+
+.submitting_email {
+  background-color: #fff;
+  border: 1px solid #f2efe6;
+  border-radius: 255px;
+  margin-bottom: 11px;
+  flex-wrap: wrap; }
+  .submitting_email .send_email {
+    display: flex;
+    justify-content: space-between; }
+    .submitting_email .send_email input {
+      width: 590px;
+      height: 54px;
+      border: none;
+      border-radius: 255px;
+      outline: none; }
+    .submitting_email .send_email button {
+      border-radius: 160px;
+      width: 111px;
+      height: 56.5px;
+      background-color: #15762e;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #fbfaf7; }
+
+.policy {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #163a24;
+  max-width: 524px; }
+  .policy a {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #198c36; }
+
+.container_footer {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.container_about_company {
+  max-width: 1180px;
+  margin: auto; }
+
+.company_people {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  flex-wrap: wrap; }
+  .company_people h3 {
+    font-family: 'Recoleta', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #163a24; }
+  .company_people ul {
+    list-style: none;
+    display: flex; }
+    .company_people ul li {
+      margin-right: 10px; }
+      .company_people ul li:last-child {
+        margin-right: 0; }
+
+.container_clerksy_inc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-wrap: wrap; }
+  .container_clerksy_inc .info_clerksy {
+    display: flex;
+    flex-wrap: wrap; }
+    .container_clerksy_inc .info_clerksy a {
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: right;
+      color: #198c36;
+      margin-left: 14px;
+      text-decoration: none; }

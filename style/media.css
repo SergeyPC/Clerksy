@@ -198,4 +198,49 @@
         font-size: 14px;
     }
 
+    .signUp_text {
+        margin: auto;
+    }
+    .signUp_text p {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .container_form_email {
+        margin: auto;
+    }
+
+    .policy {
+        width: 400px;
+    }
+    .submitting_email {
+        margin-bottom: 25px;
+    }
+
+    .company_people {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .company_people img {
+        margin-bottom: 10px;
+    }
+
+    .company_people h3 {
+        margin-bottom: 15px;
+    }
+
+    .container_clerksy_inc p {
+        text-align: center;
+        max-width: 340px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    .submitting_email .send_email input {
+        width: 290px;
+    }
 }
