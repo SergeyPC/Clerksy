@@ -1,4 +1,4 @@
-@media screen and (max-width: 428px){
+@media screen and (max-width: 430px){
     /*.container a img {
         max-width: 100%;
         height: auto;
@@ -237,10 +237,60 @@
         margin-bottom: 15px;
     }
 
-}
+    .text_hr_ebook {
+        display: ruby;
+    }
 
-@media screen and (max-width: 720px){
-    .submitting_email .send_email input {
-        width: 290px;
+    .get_started .container_get_started {
+        padding-bottom: 69px;
+    }
+
+    .policy {
+        width: 95vw;
+        text-align: center;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .signUp_text h2 {
+        text-align: center;
+    }
+    .text_put_the_human p, .text_play p, .text_women p, .text_hr_ebook p {
+        text-align: center;
+    }
+
+    .employees_container,.text_women {
+        max-width: 280px;
+    }
+
+    .cd-logo {
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+
+    .partners_container {
+        max-width: 300px;
+    }
+
+    .text_hr_ebook {
+        display: ruby;
+    }
+
+    .policy {
+        width: 95vw;
+        text-align: center;
+    }
+
+    .submitting_email .send_email input {
+        width: 65%;
+    }
+    .submitting_email .send_email button {
+        width: 35%;
+    }
+
+    .container_clerksy_inc .info_clerksy {
+        justify-content: center;
+    }
+
+}
+
