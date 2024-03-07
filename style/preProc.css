@@ -332,7 +332,8 @@ h1 {
 .fill_out:after, .time_it:after, .take_advantage:after {
   content: "";
   background-size: cover;
-  position: absolute; }
+  position: absolute;
+  z-index: 0; }
 
 .fill_out:after {
   width: 75px;
@@ -354,6 +355,10 @@ h1 {
   background-image: url("../images/Vector.svg");
   right: -1%;
   top: 11%; }
+
+.text_take_advantage, .cost {
+  position: relative;
+  z-index: 1; }
 
 .minutes {
   color: #163A24;
