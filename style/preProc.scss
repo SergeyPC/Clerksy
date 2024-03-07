@@ -174,7 +174,7 @@ h1 {
     font-size: 18px;
     font-style: $font_style;
     font-weight: $font_weight;
-    line-height: 27px; // 150%
+    line-height: 27px;
     margin-bottom: 19px;
   }
 }
@@ -239,7 +239,7 @@ h1 {
       font-size: 48px;
       font-style: $font_style;
       font-weight: 600;
-      line-height: 54px; // 112.5%
+      line-height: 54px;
       text-align: center;
       margin-bottom: 74px;
     }
@@ -304,7 +304,7 @@ h1 {
       font-size: 48px;
       font-style: $font_style;
       font-weight: 600;
-      line-height: 54px; // 112.5%
+      line-height: 54px;
     }
 
     p {
@@ -318,7 +318,7 @@ h1 {
       font-size: 18px;
       font-style: $font_style;
       font-weight: $font_weight;
-      line-height: 27px; // 150%
+      line-height: 27px;
     }
   }
 }
@@ -335,7 +335,7 @@ h1 {
     font-size: 48px;
     font-style: $font_style;
     font-weight: 600;
-    line-height: 54px; // 112.5%
+    line-height: 54px;
     margin-bottom: 26px;
   }
 
@@ -346,7 +346,7 @@ h1 {
     font-size: 18px;
     font-style: $font_style;
     font-weight: $font_weight;
-    line-height: 27px; // 150%
+    line-height: 27px;
     margin-bottom: 18px;
   }
 }
@@ -381,7 +381,7 @@ h1 {
       font-size: 28px;
       font-style: $font_style;
       font-weight: 600;
-      line-height: 31.5px; // 112.5%
+      line-height: 31.5px;
       max-width: 285px;
       margin-bottom: 23px;
     }
@@ -427,7 +427,7 @@ h1 {
     font-size: 18px;
     font-style: $font_style;
     font-weight: $font_weight;
-    line-height: 27px; // 150%
+    line-height: 27px;
     display: flex;
     width: 262.203px;
     height: 141px;
@@ -478,7 +478,7 @@ h1 {
   font-size: 28px;
   font-style: $font_style;
   font-weight: 600;
-  line-height: 32px; /* 112.5% */
+  line-height: 32px;
 }
 
 .easy_as {
@@ -500,7 +500,7 @@ h1 {
   font-size: 18px;
   font-style: $font_style;
   font-weight: $font_weight;
-  line-height: 27px; /* 150% */
+  line-height: 27px;
   padding-bottom: 18px;
   margin: auto;
 }
@@ -510,8 +510,8 @@ h1 {
   border-radius: 160px;
   background-color: #198C36;
   display: inline-block;
-  padding: 15px 25px; // Задайте нужные вам значения падингов
-  text-decoration: none; // Убираем подчеркивание по умолчанию для ссылки
+  padding: 15px 25px;
+  text-decoration: none;
   color: #FBFAF7;
   font-family: $first_font;
   font-size: $font_size;
@@ -636,7 +636,6 @@ h1 {
     justify-content: space-between;
     width: 100%;
     input {
-      /*width: 590px;*/
       width: 80%;
       height: 54px;
       border: none;
@@ -645,7 +644,6 @@ h1 {
     }
     button {
       border-radius: 160px;
-      /*width: 111px;*/
       width: 20%;
       height: 56.5px;
       background-color: #15762e;
